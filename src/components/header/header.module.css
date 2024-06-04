@@ -1,0 +1,22 @@
+.name {
+    font-family: "Slackside One", cursive;
+    font-size: 4rem;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+
+.topText {
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.7rem;
+}
+
+.mainHeaderDiv {
+    text-align: center;
+}
+
+.nameDiv {
+    width: 100%;
+    background-color: white;
+    box-shadow: inset 0 0 13px black; 
+}

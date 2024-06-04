@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+body {
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-family: "Madimi One", sans-serif;
+}
+
+p {
+    color: black;
+    font-family: "Madimi One", sans-serif;
+}
+
+:root {
+ margin: 0;
+ background-image: linear-gradient(#7C93C3, #7C93C3, #7C93C3, #EEF5FF);
+ height: 100%;
+ margin: 0;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+/* font-family: "Slackside One", cursive; */
+/* font-family: "Madimi One", sans-serif; */

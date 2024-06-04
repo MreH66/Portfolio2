@@ -1,0 +1,243 @@
+.gridLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+
+    height: 200px;
+    width: 200px;
+
+  }
+  
+  .twoDivs {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    margin-top: -175px;
+    margin-left:  -175px;
+
+  }
+  
+  .colorDiv {
+    background-color: rgb(243, 243, 243);
+    height: 150px;
+    width: 150px;
+    transition: .2s ease-in-out;
+    box-shadow: 0 0 5px rgba(0,0,0,.4), 2px 2px 5px rgba(0,0,0,.1);
+
+    cursor: pointer;
+  }
+  
+  .up1 {
+    border-radius: 140px 5px 5px 5px;
+  }
+  
+  .up2 { 
+    border-radius: 5px 140px 5px 5px;
+  }
+  
+  .down1 {
+    border-radius: 5px 5px 5px 140px;
+  }
+  
+  .down2 {  
+    border-radius: 5px 5px 140px 5px;
+  }
+  
+  .icon {
+    fill:black;
+    position: relative;
+
+    top: 25%;
+    left: 25%;
+    
+
+    font-size: 100px;
+
+  }
+
+  
+  .icon2 {
+    fill: #7289DA;
+    position: relative;
+
+    top: 25%;
+    left: 10%;
+
+    font-size: 100px;
+
+  }
+  
+  .icon3 {
+    fill: #0762C8;
+    position: relative;
+    top: 5%;
+    left: 25%;
+
+    font-size: 100px;
+
+  }
+
+  .icon4 {
+    position: relative;
+    top: 15%;
+    left: 20%;
+
+    font-size: 100px;
+
+    rotate: -20deg;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+
+  .up1:hover {
+ 
+    scale: 1.05;
+    background-color: black;
+  
+    .icon {
+      fill:white;
+    }
+  }
+  
+  .up2:hover {    
+
+    scale: 1.05;
+     background-color: #7289DA;
+  
+    .icon2 {
+      fill: white;
+    }
+  }
+  
+  .down1:hover {   
+    
+    scale: 1.05;
+    background-color: #0762C8;
+  
+    .icon3 {
+      fill: white;
+    }
+  }
+  
+  .down2:hover {    
+ 
+    scale: 1.05; 
+    fill: white;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .gridLinks {
+  
+      height: 150px;
+      width: 150px;
+  
+    }
+    
+    .twoDivs {
+      
+      position: absolute;
+      top: 100%;
+      left: 100%;
+      
+      margin-top: -250px;
+      margin-left:  -250px;
+  
+    }
+
+    .colorDiv {
+      height: 125px;
+      width: 125px;
+
+      position: relative;
+      bottom: 50%;
+      right: 50%;
+
+    }
+
+    .icon {
+
+  
+      top: 27%;
+      left: 27%;
+      
+      font-size: 80px;
+  
+    }
+  
+    
+    .icon2 {
+
+  
+      top: 30%;
+      left: 10%;
+
+      font-size: 80px;
+  
+    }
+    
+    .icon3 {
+
+
+      top: 5%;
+      left: 30%;
+  
+      font-size: 80px;
+  
+    }
+  
+    .icon4 {
+
+      top: 15%;
+      left: 15%;
+  
+      font-size: 80px;
+
+    }
+
+  }
+
+  /*
+  .gridLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+
+    height: 200px;
+    width: 200px;
+
+  }
+  
+  .twoDivs {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    margin-top: -175px;
+    margin-left:  -175px;
+
+  }
+  */
