@@ -22,6 +22,7 @@
 
 .title {
     font-size: 2rem;
+    margin: 20px;
 }
 
 .textAbout {
@@ -132,3 +133,21 @@
      }
 
   }
+
+  @media only screen and (max-width: 500px) {
+
+    .textAbout {
+        font-size: 1.7rem;
+    }
+
+    .textSkill {
+        font-size: 1.7rem;
+    }
+
+    .title {
+    font-size: 1.7rem;
+    }
+
+}
+
+  /*     font-size: 1.5rem; */
