@@ -20,3 +20,16 @@ function App() {
 }
 
 export default App;
+
+/*
+STA JOS TREBA 
+--> 
+
+FEATURE --> i mali problem je sto kada sam na telefonu i kliknem na neki od 
+linkova "skills" ako je useru ekran skroz gore nece se nista desiti ako ne scroluje sam
+tako da to treba da se uradi da scroll bude kada klikne na nesto
+
+ikonica kad ides nazad sa projekta na listu je na telefonu u textu
+
+kada bro scroll na telefonu imam neku crni div kao nzm sta je mozda onaj shadow div koji sam stavio!!! proveri
+*/

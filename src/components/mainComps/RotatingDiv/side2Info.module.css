@@ -5,13 +5,10 @@
 
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    float: left;
-    padding: 20px;
+
     background-color: white;
     border-radius: 50%;
-
-    height: 200px;
-    width: 200px;
+  
 
   }
   
@@ -21,8 +18,9 @@
     top: 50%;
     left: 50%;
     
-    margin-top: -175px;
-    margin-left:  -175px;
+    margin-top: -155px;
+    margin-left:  -155px;
+
 
   }
   
@@ -40,15 +38,18 @@
     border-radius: 140px 5px 5px 5px;
   }
   
-  .up2 { 
+  .up2 {     
+
     border-radius: 5px 140px 5px 5px;
   }
   
-  .down1 {
+  .down1 {    
+ 
     border-radius: 5px 5px 5px 140px;
   }
   
-  .down2 {  
+  .down2 {      
+ 
     border-radius: 5px 5px 140px 5px;
   }
   
@@ -144,19 +145,19 @@
 
     .gridLinks {
   
-      height: 150px;
-      width: 150px;
-  
+      height: 260px;
+      width: 260px;
+
     }
     
     .twoDivs {
       
       position: absolute;
-      top: 100%;
-      left: 100%;
+      top: 50%;
+      left: 50%;
       
-      margin-top: -250px;
-      margin-left:  -250px;
+      margin-top: -130px;
+      margin-left:  -130px;
   
     }
 
@@ -164,9 +165,8 @@
       height: 125px;
       width: 125px;
 
-      position: relative;
-      bottom: 50%;
-      right: 50%;
+      
+   
 
     }
 

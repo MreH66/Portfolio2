@@ -18,6 +18,7 @@ export const myWork = [
     technologiesUsed: "HTML , CSS , JavaScript , Next.js",
     about:
       "A site made to showcase my basic skills in front-end web development",
+    link: "https://basics1-drab.vercel.app/",
   },
   {
     title: "web shop",
@@ -26,5 +27,6 @@ export const myWork = [
       "HTML , CSS , JavaScript , React , React router dom , Firebase (Firestore, Authentication , storage) ...",
     about:
       "Responsive web shop with functionality for the admin to post new items to the shop ",
+    link: "https://github.com/MreH66/web-shop1",
   },
 ];

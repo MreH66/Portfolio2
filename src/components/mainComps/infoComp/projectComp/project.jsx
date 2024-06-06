@@ -1,10 +1,13 @@
 import { useEffect } from "react";
 import c from "./project.module.css";
 
+import { Link } from "react-router-dom";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { IoArrowBackCircleOutline } from "react-icons/io5";
+import { IoReturnUpBackOutline } from "react-icons/io5";
 
 export default function Project({ returnFun, mainObj }) {
   useEffect(() => {
@@ -18,15 +21,23 @@ export default function Project({ returnFun, mainObj }) {
       data-aos-duration="1000"
       className={c.mainDiv}
     >
-      <p
-        className={c.mainText}
-        onClick={() => {
-          returnFun(null);
-        }}
-      >
-        <IoArrowBackCircleOutline className={c.iconPosition}/>
-        {mainObj.title}
-      </p>
+      <div className={c.gridButtons}>
+        <div>
+          <IoReturnUpBackOutline
+            onClick={() => {
+              returnFun(null);
+            }}
+            className={c.iconBack}
+          />
+        </div>
+
+        <p className={c.mainText}>
+          <Link className={c.mainLink} to={mainObj.link} target="_blank">
+            {mainObj.title}
+            <IoArrowBackCircleOutline className={c.iconPosition} />
+          </Link>
+        </p>
+      </div>
       <img className={c.img} src={mainObj.img} />
       <p className={c.textinfo}>{mainObj.about} </p>
       <p className={c.textinfo}>

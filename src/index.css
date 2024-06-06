@@ -6,6 +6,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
+    -webkit-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
   
 }
 
@@ -29,7 +33,7 @@ p {
 
 :root {
  margin: 0;
- background-image: linear-gradient(#7C93C3, #7C93C3, #7C93C3, #EEF5FF);
+ background-color: #7C93C3;
  height: 100%;
  margin: 0;
  background-repeat: no-repeat;
@@ -38,3 +42,4 @@ p {
 
 /* font-family: "Slackside One", cursive; */
 /* font-family: "Madimi One", sans-serif; */
+/* background-image: linear-gradient(#7C93C3, #7C93C3, #7C93C3, #EEF5FF); */

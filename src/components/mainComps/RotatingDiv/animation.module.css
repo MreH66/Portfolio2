@@ -82,6 +82,10 @@
     
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+
+    -webkit-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
   }
   
   .styleDiv {
