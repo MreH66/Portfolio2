@@ -25,6 +25,9 @@
     position: relative;
     top: 25%;
     font-size: 3rem;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: -10px;
 }
 
 .gridButtons {

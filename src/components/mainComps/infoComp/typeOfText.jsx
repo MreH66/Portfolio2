@@ -66,14 +66,13 @@ export default function TypeOfText({ type }) {
               <div className={c.projectsDiv}>
                 {myWork.map((item) => {
                   return (
-                    <div
-                      className={c.hoverAnimation}
-                      onClick={() => {
-                        setSelectedProject(item);
-                      }}
-                      key={v4()}
-                    >
-                      <p className={c.textTitle}>
+                    <div className={c.hoverAnimation} key={v4()}>
+                      <p
+                        onClick={() => {
+                          setSelectedProject(item);
+                        }}
+                        className={c.textTitle}
+                      >
                         <MdOutlineArrowForwardIos className={c.iconPosition} />
                         {item.title}
                       </p>

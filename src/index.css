@@ -34,10 +34,11 @@ p {
 :root {
  margin: 0;
  background-color: #7C93C3;
- height: 100%;
- margin: 0;
- background-repeat: no-repeat;
- background-attachment: fixed;
+
+ background: linear-gradient(#7C93C3, #EEF5FF);
+ background-size: 100% 300%;
+ transition: all .5s linear;
+
 }
 
 /* font-family: "Slackside One", cursive; */
