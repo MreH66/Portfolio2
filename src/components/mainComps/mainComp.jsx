@@ -1,17 +1,28 @@
 import { useState } from "react";
 import c from "./mainComp.module.css";
 
+import { animateScroll } from "react-scroll";
+
 import MainInfo from "./infoComp/mainInfo";
+
+const options = {
+  duration: 1500,
+  smooth: true,
+};
 
 export default function MainComp() {
   const [infoType, setInfoType] = useState(undefined);
 
   function setInfo(type) {
     if (infoType === type) {
-      setInfoType(undefined);
+      animateScroll.scrollTo(100, options);
+      setTimeout(() => {
+        setInfoType(undefined);
+      }, 1000);
       return;
     }
 
+    animateScroll.scrollToBottom(options);
     setInfoType(type);
   }
 
