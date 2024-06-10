@@ -49,7 +49,6 @@ export default function RotatingDiv() {
     }, 1200);
   }
 
-  /* TIMER */
   useEffect(() => {
     function rotateOnce() {
       setTimeout(() => {
