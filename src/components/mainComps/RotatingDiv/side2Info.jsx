@@ -1,8 +1,8 @@
 import c from "./side2Info.module.css";
 
 import { FaGithub } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { GrDocumentText } from "react-icons/gr";
 
 import retrunPic from "../../../assets/go-back-arrow.png";
 
@@ -17,7 +17,7 @@ export default function Side2({ funRotate, side }) {
         </a>
 
         <div className={c.colorDiv + " " + c.up2}>
-          <FaDiscord className={c.icon2} />
+          <GrDocumentText className={c.icon2} />
         </div>
 
         <a

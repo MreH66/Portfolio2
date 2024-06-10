@@ -67,7 +67,7 @@
 
   
   .icon2 {
-    fill: #7289DA;
+    color: black;
     position: relative;
 
     top: 25%;
@@ -117,10 +117,10 @@
   .up2:hover {    
 
     scale: 1.05;
-     background-color: #7289DA;
+     background-color: black;
   
     .icon2 {
-      fill: white;
+      color: white;
     }
   }
   
@@ -182,23 +182,15 @@
   
     
     .icon2 {
-
-  
-      top: 30%;
+      top: 25%;
       left: 10%;
-
       font-size: 80px;
-  
     }
     
     .icon3 {
-
-
       top: 5%;
       left: 30%;
-  
       font-size: 80px;
-  
     }
   
     .icon4 {
@@ -211,33 +203,3 @@
     }
 
   }
-
-  /*
-  .gridLinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    float: left;
-    padding: 20px;
-    background-color: white;
-    border-radius: 50%;
-
-    height: 200px;
-    width: 200px;
-
-  }
-  
-  .twoDivs {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    
-    margin-top: -175px;
-    margin-left:  -175px;
-
-  }
-  */

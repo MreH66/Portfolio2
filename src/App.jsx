@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Backgound />
-      <div className={c.MainAppDiv}>
+      <div>
         <Header />
         <div className={c.InfoDiv}>
           <div className={c.parent}>

@@ -27,7 +27,7 @@
 
 }
 
-.testDiv {
+.positionDivA {
   position: absolute;
     background-color: white;
     width: 100%;
@@ -38,15 +38,15 @@
 
 }
 
-.testDivZ {
+.positionDivAZ {
   z-index: 5;
 }
 
-.testDiv2Z {
+.positionDivAZ2 {
   z-index: 4;
 }
 
-.testDiv2 {
+.positionDivA2 {
   position: absolute;
   background-color:white;
   width: 100%;
@@ -59,8 +59,6 @@
 .hideDiv {
     display: none;
 }
-
-  /* side 1 */
 
   .picture {
     width: 75%;
@@ -121,8 +119,6 @@
   
   }
   
-  /* end of rotations animation */
-  
   .opacityManage {
     animation: 1.2s 0s 1 fade forwards;
   }
@@ -157,8 +153,6 @@
 
   }
 
-  /* SECOND DIV */
-
   .slideInSe {
     animation: 1.2s 0s 1 RotateRightSe forwards;
   }
@@ -187,7 +181,6 @@
 
   }
 
-/* SECOND 3D DIV */
 .slideIn2 {
   animation: 1.2s 0s 1 RotateRight2 forwards;
 }
@@ -219,7 +212,6 @@
   }
 
 }
-  /* SECOND DIV */
 
   .slideInSe2 {
     animation: 1.2s 0s 1 RotateRightSe2 forwards;

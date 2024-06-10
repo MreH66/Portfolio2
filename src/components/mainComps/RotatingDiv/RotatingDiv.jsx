@@ -73,11 +73,13 @@ export default function RotatingDiv() {
 
         <div
           onClick={chnageDiv}
-          className={animation ? c.testDiv + " " + addAnimation : c.hideDiv}
+          className={
+            animation ? c.positionDivA + " " + addAnimation : c.hideDiv
+          }
         ></div>
         <div
           onClick={chnageDiv}
-          className={animation ? c.testDiv2 + " " + animation3 : c.hideDiv}
+          className={animation ? c.positionDivA2 + " " + animation3 : c.hideDiv}
         >
           <img className={c.picture + " " + fadeReady} src={mainPic} />
         </div>
@@ -85,7 +87,7 @@ export default function RotatingDiv() {
           className={
             animation
               ? c.hideDiv
-              : c.testDiv + " " + c.testDivZ + " " + addAnimation
+              : c.positionDivA + " " + c.positionDivAZ + " " + addAnimation
           }
         >
           <Side2 funRotate={chnageDiv} side={fadeReady} />
@@ -94,7 +96,7 @@ export default function RotatingDiv() {
           className={
             animation
               ? c.hideDiv
-              : c.testDiv2 + " " + c.testDivZ2 + " " + animation3
+              : c.positionDivA2 + " " + c.positionDivAZ2 + " " + animation3
           }
         ></div>
       </div>

@@ -15,10 +15,7 @@ export default function MainComp() {
 
   function setInfo(type) {
     if (infoType === type) {
-      animateScroll.scrollTo(100, options);
-      setTimeout(() => {
-        setInfoType(undefined);
-      }, 1000);
+      setInfoType(undefined);
       return;
     }
 
