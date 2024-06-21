@@ -8,7 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function RotatingDiv() {
-  let runOnce = false;
+  let runOnce = true;
 
   useEffect(() => {
     AOS.init();
