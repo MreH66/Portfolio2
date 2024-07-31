@@ -2,8 +2,7 @@ import project1 from "../assets/pictures/webshop/webshop1.jpg";
 import project2 from "../assets/pictures/secondWebsite/WebSite1.jpg";
 
 export const aboutMe =
-  "Started programing in 2022 so far it was amazing journey, always ready for new challenges.";
-
+  "As a front-end developer, my goal is to continually learn, master modern technologies, and create efficient, user-friendly applications.";
 export const skillsArray = [
   { title: "Markup,styling and presentation", skillsList: ["HTML", "CSS"] },
   { title: "Programming languages", skillsList: ["JavaScript"] },
@@ -16,8 +15,7 @@ export const myWork = [
     title: "Lending page",
     img: project2,
     technologiesUsed: "HTML , CSS , JavaScript , Next.js",
-    about:
-      "A site made to showcase my basic skills in front-end web development",
+    about: "This site showcases my basic skills in front-end web development",
     link: "https://basics1-drab.vercel.app/",
   },
   {
@@ -26,7 +24,7 @@ export const myWork = [
     technologiesUsed:
       "HTML , CSS , JavaScript , React , React router dom , Firebase (Firestore, Authentication , storage) ...",
     about:
-      "Responsive web shop with functionality for the admin to post new items to the shop ",
+      "Responsive web shop with functionality for the admin to add new items.",
     link: "https://github.com/MreH66/web-shop1",
   },
 ];
