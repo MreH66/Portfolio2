@@ -5,7 +5,7 @@ export const aboutMe =
   "As a front-end developer, my goal is to continually learn, master modern technologies, and create efficient, user-friendly applications.";
 export const skillsArray = [
   { title: "Markup,styling and presentation", skillsList: ["HTML", "CSS"] },
-  { title: "Programming languages", skillsList: ["JavaScript" , "TypeScipt"] },
+  { title: "Programming languages", skillsList: ["JavaScript" , "TypeScript"] },
   { title: "Library and frameworks", skillsList: ["Bootstrap", "React"] },
   { title: "Back-end", skillsList: ["Firebase"] },
 ];
@@ -19,7 +19,7 @@ export const myWork = [
     link: "https://basics1-drab.vercel.app/",
   },
   {
-    title: "web shop",
+    title: "Web shop",
     img: project1,
     technologiesUsed:
       "HTML , CSS , JavaScript , React , React router dom , Firebase (Firestore, Authentication , storage) ...",
