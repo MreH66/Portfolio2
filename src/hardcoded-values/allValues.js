@@ -5,7 +5,7 @@ export const aboutMe =
   "As a front-end developer, my goal is to continually learn, master modern technologies, and create efficient, user-friendly applications.";
 export const skillsArray = [
   { title: "Markup,styling and presentation", skillsList: ["HTML", "CSS"] },
-  { title: "Programming languages", skillsList: ["JavaScript"] },
+  { title: "Programming languages", skillsList: ["JavaScript" , "TypeScipt"] },
   { title: "Library and frameworks", skillsList: ["Bootstrap", "React"] },
   { title: "Back-end", skillsList: ["Firebase"] },
 ];
