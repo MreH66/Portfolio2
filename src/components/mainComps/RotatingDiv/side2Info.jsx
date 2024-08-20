@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 
 import retrunPic from "../../../assets/go-back-arrow.png";
+import cv from "../../../assets/CVDownload.pdf";
 
 export default function Side2({ funRotate, side }) {
   return (
@@ -17,7 +18,9 @@ export default function Side2({ funRotate, side }) {
         </a>
 
         <div className={c.colorDiv + " " + c.up2}>
-          <GrDocumentText className={c.icon2} />
+          <a href={cv} download={cv}>
+            <GrDocumentText className={c.icon2} />
+          </a>
         </div>
 
         <a
