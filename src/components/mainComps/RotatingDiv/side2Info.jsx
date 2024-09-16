@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 
 import retrunPic from "../../../assets/go-back-arrow.png";
-import cv from "../../../assets/CV2.docx";
+import cv from "../../../assets/CV2.pdf";
 
 export default function Side2({ funRotate, side }) {
   return (
