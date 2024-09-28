@@ -5,7 +5,7 @@ export const aboutMe =
   "As a front-end developer, my goal is to continually learn, master modern technologies, and create efficient, user-friendly applications.";
 export const skillsArray = [
   { title: "Markup,styling and presentation", skillsList: ["HTML", "CSS"] },
-  { title: "Programming languages", skillsList: ["JavaScript" , "TypeScript"] },
+  { title: "Programming languages", skillsList: ["JavaScript", "TypeScript"] },
   { title: "Library and frameworks", skillsList: ["Bootstrap", "React"] },
   { title: "Back-end", skillsList: ["Firebase"] },
 ];
@@ -25,6 +25,6 @@ export const myWork = [
       "HTML , CSS , JavaScript , React , React router dom , Firebase (Firestore, Authentication , storage) ...",
     about:
       "Responsive web shop with functionality for the admin to add new items.",
-    link: "https://github.com/MreH66/web-shop1",
+    link: "",
   },
 ];
