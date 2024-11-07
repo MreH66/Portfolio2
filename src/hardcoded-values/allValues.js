@@ -7,7 +7,7 @@ export const skillsArray = [
   { title: "Markup,styling and presentation", skillsList: ["HTML", "CSS"] },
   { title: "Programming languages", skillsList: ["JavaScript", "TypeScript"] },
   { title: "Library and frameworks", skillsList: ["Bootstrap", "React"] },
-  { title: "Back-end", skillsList: ["Firebase"] },
+  { title: "Service", skillsList: ["Firebase"] },
 ];
 
 export const myWork = [
