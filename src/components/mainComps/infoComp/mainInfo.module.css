@@ -149,3 +149,29 @@
     }
 
 }
+
+@media (min-width: 2561px) {
+
+    .textAbout {
+        padding-top: 40px;
+        font-size: 2.5rem;
+    }
+
+    .textSkill {
+        
+        font-size: 2.5rem;
+    }
+
+    .title {
+    font-size: 3rem;
+    }
+
+    .textTitle {
+        font-size: 2rem;
+    }
+
+    .textProject {
+        font-size: 3rem;
+    }
+
+}
