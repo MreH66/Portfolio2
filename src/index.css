@@ -11,6 +11,9 @@ body {
     -moz-tap-highlight-color:transparent;
     -o-tap-highlight-color:transparent;
   
+    /*2560px */
+    max-width: 2800px;
+    margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
@@ -40,6 +43,16 @@ p {
  transition: all .5s linear;
 
 }
+
+@media (min-width: 2561px) {
+    body {
+        max-width: 2800px;
+        transform: scale(1.7); 
+        transform-origin: top center;
+        min-height: 60vh;
+        margin: 0 auto;
+    }
+  }
 
 /* font-family: "Slackside One", cursive; */
 /* font-family: "Madimi One", sans-serif; */

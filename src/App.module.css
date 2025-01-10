@@ -35,3 +35,11 @@
 
 }
 
+@media (min-width: 2561px) { 
+
+    .parent {
+        top: 80px;
+        left: 150px;
+    }
+
+}

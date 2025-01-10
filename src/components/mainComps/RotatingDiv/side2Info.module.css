@@ -164,9 +164,6 @@
       height: 125px;
       width: 125px;
 
-      
-   
-
     }
 
     .icon {
@@ -202,3 +199,73 @@
     }
 
   }
+
+@media (min-width: 2561px) { 
+
+    .colorDiv {
+
+      height: 185px;
+      width: 185px;
+
+    }
+
+    .twoDivs {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      
+      margin-top: -185px;
+      margin-left:  -185px;
+    }
+
+    .up1 {
+      border-radius: 160px 5px 5px 5px;
+    }
+    
+    .up2 {     
+  
+      border-radius: 5px 160px 5px 5px;
+    }
+    
+    .down1 {    
+   
+      border-radius: 5px 5px 5px 160px;
+    }
+    
+    .down2 {      
+   
+      border-radius: 5px 5px 160px 5px;
+    }
+
+    .icon {
+
+  
+      top: 32%;
+      left: 30%;
+      
+      font-size: 100px;
+  
+    }
+    
+    .icon2 {
+      top: 30%;
+      left: 12%;
+      font-size: 100px;
+    }
+    
+    .icon3 {
+      top: 10%;
+      left: 32%;
+      font-size: 100px;
+    }
+  
+    .icon4 {
+
+      top: 25%;
+      left: 25%;
+  
+      font-size: 100px;
+
+    }
+}

@@ -25,7 +25,7 @@ export default function MainComp() {
 
   return (
     <>
-      <div>
+      <div className={c.mainDiv}>
         <div className={c.linksAndIcons}>
           <div
             onClick={() => {

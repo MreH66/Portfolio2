@@ -102,3 +102,12 @@
       width: 80%;
     }
   }
+
+  @media (min-width: 2561px) {
+
+   .mainDiv {
+    position: relative;
+    right: 50px;
+   }
+
+  }
